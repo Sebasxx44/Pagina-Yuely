@@ -1,0 +1,232 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(rgba(0, 0, 0,.80) 0%, rgba(0, 0, 0, .80) 100% ), url(img/feid-karol.jpg);
+}
+
+
+/* ENCABEZADO */
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+header{
+    padding: 10px 0 ;
+    background-color: transparent;
+}
+
+header .container{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+}
+
+header .logo{
+width: 60px;
+}
+
+header .nav a{
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+ i{
+    font-size: 20px;
+    color: rgb(38, 219, 114);
+}
+
+i:hover{
+    color: rgb(66, 252, 144);
+    
+}
+
+header nav a:hover{
+    color: #FFf;
+}
+
+
+/* SUBTITULO */
+
+.subtitle {
+    background-color:transparent;
+    text-align: start;
+    padding: 0px;
+   width: 250px;
+}
+
+.subtitle h1{
+    font-size: 30px;
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.subtitle h1:hover{
+    color: #FFf;
+}
+
+.subtitle a {
+    text-decoration: none;
+}
+
+
+/* CONTENIDOS PRINCIPALES */
+
+#contenido{
+    margin: 30px 10px;
+}
+
+#contenido .numero1{
+    width: 25%;
+    height: 350px;
+    float: left;
+    background: linear-gradient(rgba(0, 0, 0,.20) 0%, rgba(0, 0, 0, .20) 100% ), url(img/bad-bunny);
+    background-size: cover;
+}
+
+#contenido .numero2{
+    width: 50%;
+    background: linear-gradient(rgba(0, 0, 0,.20) 0%, rgba(0, 0, 0, .20) 100% ), url(img/Natan-y-Shander-lanzan-nuevo-sencillo-VIP-junto-a-Feid-Ryan-Castro-y-Totoy-El-Frio.jpeg);
+    background-size: cover;
+    height: 350px;
+    float: left;
+}
+
+#contenido .numero3{
+    width: 25%;
+    background: linear-gradient(rgba(0, 0, 0,.20) 0%, rgba(0, 0, 0, .20) 100% ), url(img/eladio-carrion.jpg);
+    background-size: cover;
+    height: 350px;
+    float: right;
+}
+
+
+#contenido .numero4{
+    width: 25%;
+    background: linear-gradient(rgba(0, 0, 0,.20) 0%, rgba(0, 0, 0, .20) 100% ), url(img/blessd);
+    background-size: cover;
+    height: 350px;
+    float: left; 
+}
+
+#contenido .numero5{
+    width: 50%;
+    background: linear-gradient(rgba(0, 0, 0,.20) 0%, rgba(0, 0, 0, .20) 100% ), url(img/bz-qv.jpg);
+    background-size: cover;
+    height: 350px;
+    float: left; 
+}
+
+#contenido .numero6{
+    width: 25%;
+    background: linear-gradient(rgba(0, 0, 0,.20) 0%, rgba(0, 0, 0, .20) 100% ), url(img/ryan.jpg);
+    background-size: cover;
+    height: 350px;
+    float: right; 
+}
+
+#contenido .numero7{
+    width: 25%;
+    background: linear-gradient(rgba(0, 0, 0,.20) 0%, rgba(0, 0, 0, .20) 100% ), url(img/un\ verano\ sin\ ti.jpg);
+    background-size: cover;
+    height: 350px;
+    float: left; 
+}
+
+#contenido .numero8{
+    width: 25%;
+    background: linear-gradient(rgba(0, 0, 0,.20) 0%, rgba(0, 0, 0, .20) 100% ), url(img/duki.jpeg);
+    background-size: cover;
+    height: 350px;
+    float: left; 
+}
+
+#contenido .numero9{
+    width: 25%;
+    background: linear-gradient(rgba(0, 0, 0,.20) 0%, rgba(0, 0, 0, .20) 100% ), url(img/normal-\ ferxxo.png);
+    background-size: cover;
+    height: 350px;
+    float: left; 
+}
+
+#contenido .numero10{
+    width: 25%;
+    background: linear-gradient(rgba(0, 0, 0,.20) 0%, rgba(0, 0, 0, .20) 100% ), url(img/Industrial-Techno.jpg);
+    background-size: cover;
+    height: 350px;
+    float: right; 
+}
+
+
+/* BOTON */
+
+.boton{
+    font-size: 20px;
+    padding: 0.63em 0.93em;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .30);
+    transition: .3s ease all;
+    border-color: transparent;
+    font-family: sans-serif;
+    border-radius: 5px;
+    color: white;
+    margin-top: 280px;
+    margin-left: 260px;
+}
+
+.boton:hover{
+    background-color: #FFf;
+    color: black;
+}
+
+.boton1{
+    font-size: 18px;
+    padding: 0.63em 0.93em;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .30);
+    transition: .3s ease all;
+    border-color: transparent;
+    font-family: sans-serif;
+    border-radius: 5px;
+    color: white;
+    margin-top: 280px;
+    margin-left: 100px;
+}
+
+.boton1:hover{
+    background-color: #FFf;
+    color: black;
+}
+
+
+/* FOOTER */
+
+#pie{
+width: 100%;
+height: 300px;
+background-color:rgb(12, 11, 15);
+clear: both;
+}
+
+#pie img{
+    width: 100px;
+    margin-left: 45%;
+    padding: 30px;
+}
+
+#pie h1{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFf;
+    text-align: center;
+}
